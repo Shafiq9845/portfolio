@@ -20,7 +20,7 @@ const navbar = () => {
         </div>
 
         <div className="right_container">
-        <a href="" class="fa fa-linkedin"></a>
+        <a href="https://www.linkedin.com/in/shafiq-undefined-a850382b7/" class="fa fa-linkedin"></a>
         <a href="https://twitter.com/ShafiqSiddiq11" class="fa fa-twitter"></a>
         <a href="https://www.instagram.com/iem_shafiq" class="fa fa-instagram"></a>
         <a href="https://github.com/Shafiq9845" class="fa fa-github"></a>

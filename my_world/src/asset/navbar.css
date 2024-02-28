@@ -1,11 +1,14 @@
 *{
     box-sizing: border-box;
 }
+:root{
+    --body-bg-color:#ADBC9F;
+    --hover:#FBFADA;
+}
 body{
     margin: 1;
-    background-color: #B6C4B6;
+    background-color:var(--body-bg-color);
 }
-
 .main_container{
 position: sticky;
 display: flex;
@@ -22,7 +25,6 @@ border-radius: 6px;
 display: flex;
 font-weight: bolder;
 font-style:italic;
-
 }
 .center_container{
     display: flex;
@@ -39,7 +41,7 @@ font-style:italic;
     font-weight: bold;
 }
 .center_container a:hover{
-    color: #B6C4B6;
+    color:var(--hover);
     transition: 0.5s;
 }
 
@@ -83,4 +85,12 @@ font-style:italic;
     background-color: black;
     color: white;
     text-decoration: none;
+  }
+ .left_container >h3{
+    animation: anime alternate ease-in 2s infinite; 
+  }
+  @keyframes anime {
+    100%{
+        transform:scale(1.4);
+    }
   }
