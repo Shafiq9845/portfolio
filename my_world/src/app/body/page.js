@@ -1,9 +1,7 @@
 import Image from "next/image"
 import Img from "../images/profile.jpg"
 import "../../asset/body.css"
-import Script from "next/script"
 import React from 'react'
-import js from"../javascript/text"
 const page = () => {
   return (
     <>
@@ -12,13 +10,13 @@ const page = () => {
         <Image src={Img} alt="image" loading="lazy" className="image"></Image>
 
       </div>
-        <h1>
-          <a href="" class="typewrite" data-period="2000" data-type='[ "Hi, Im Si.", "I am Creative.", "I Love Design.", "I Love to Develop." ]'>
-            <span class="wrap"></span>
-          </a>
-        </h1>
+      <div class="typing-slider">
+        <p>𝐻𝒾 𝒢𝓊𝓎𝓈.....</p>
+        <p>𝐼 𝒜𝓂 𝒮𝒽𝒶𝒻𝒾𝓆.</p>
+        <p>𝐼 𝒜𝓂 𝒜 𝒲𝑒𝒷 𝒟𝑒𝓋𝑒𝓁𝑜𝓅𝑒𝓇.</p>            
+      </div>
     </div>
-    <Script src={js}></Script>
+    
     </>
   )
 }
