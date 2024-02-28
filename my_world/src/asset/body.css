@@ -5,6 +5,25 @@
     --body-bg-color:#ADBC9F;
     --hover:#FBFADA;
 }
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+}
 .image-container{
-    filter: ;
+    position: relative;
+    height: clamp(200px,100vh,700px);
+    -webkit-mask-image: url(../app/images/graph.png);
+    mask-image: url(../app/images/graph.png);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: clamp(500px,700px);
+    mask-size: clamp(500px,700px);
+}
+.image{
+    position: relative;
+    top: 95px;
+    left: 35px;
+    width: 400px;
+    height: 400px;
+    
 }

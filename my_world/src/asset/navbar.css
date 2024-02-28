@@ -42,7 +42,7 @@ font-style:italic;
 }
 .center_container a:hover{
     color:var(--hover);
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .right_container{
