@@ -14,20 +14,25 @@
 .image-container{
     position: relative;
     display: flex;
-    height: clamp(200px,100vh,700px);
+    object-fit: fill;
     -webkit-mask-image: url(../app/images/graph.png);
     mask-image: url(../app/images/graph.png);
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
-    -webkit-mask-size: clamp(500px,700px);
-    mask-size: clamp(500px,700px);
+    -webkit-mask-size: 500px;
+    mask-size: 500px;
+    width: 30%;
+    height: auto;
+    background-color: red;
+    border-radius: 50% 50% 50% 50% / 60% 60% 50% 50%;
 }
 .image{
     position: relative;
-    top: 95px;
-    left: 35px;
+    top: 24%;
+    left: 50px;
     width: 400px;
-    height: 400px;    
+    height: 400px; 
+    object-fit: fill;
 }
 @keyframes cursor {
     from, to {
@@ -47,7 +52,7 @@
 }
 @keyframes slide {
     33.3333333333% {
-        font-size: 4.5rem;
+        font-size:clamp(2rem,3rem,4rem);
         letter-spacing: 3px;
    }
     to {
@@ -56,10 +61,12 @@
    }
 }
 .typing-slider {
+    width: auto;
     font-family: Consolas, monospace;
     font-weight: bold;
     text-align: center;
     white-space: nowrap;
+    line-height: 1.168;
 }
 .typing-slider p {
     position: relative;
@@ -107,4 +114,50 @@
     flex-wrap: wrap;
     padding-right: 20%;
 
+}
+
+@media (max-width:1080px) {
+    @keyframes slide {
+        33.3333333333% {
+            font-size: clamp(1rem,1.5rem,2rem);
+            letter-spacing: 3px;
+       }
+        to {
+            font-size: 0;
+            letter-spacing: 0;
+       }
+    }
+    /* .image-container{
+        position: relative;
+        display: flex;
+        height: 200px;
+        width: 200px;
+        object-fit: fill;
+        -webkit-mask-image: url(../app/images/graph.png);
+        mask-image: url(../app/images/graph.png);
+        -webkit-mask-repeat: no-repeat;
+        mask-repeat: no-repeat;
+        -webkit-mask-size: clamp(200px,300px);
+        mask-size: clamp(200px,300px);
+    }
+    .image{
+        position: relative;
+        top: 95px;
+        left: 35px;
+        height: 200px;
+        width: 200px; 
+        object-fit: fill;
+    } */
+}
+@media (max-width:600px) {
+    @keyframes slide {
+        33.3333333333% {
+            font-size: 1.5rem;
+            letter-spacing: 3px;
+       }
+        to {
+            font-size: 0;
+            letter-spacing: 0;
+       }
+    }
 }

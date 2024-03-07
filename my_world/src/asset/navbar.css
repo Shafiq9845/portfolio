@@ -14,7 +14,7 @@ position: sticky;
 display: flex;
 flex-wrap: wrap;
 width: 100%;
-height: 50px 100px;
+max-height:500px;
 border-bottom: 2px solid black;
 justify-content:space-between;
 padding: 10px;
@@ -39,6 +39,7 @@ font-style:italic;
     color: rgb(0, 0, 0);
     padding-inline: 20px 100px;
     font-weight: bold;
+    font-size: clamp(1rem, 1.5vw, 2rem);
 }
 .center_container a:hover{
     color:var(--hover);
