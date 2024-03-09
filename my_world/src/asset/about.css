@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+    --body-bg-color:#ffffff;
+    --hover:#FBFADA;
+}
+.about-container{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.desc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 3%;
+    font-size: 2vw;
+    word-break:normal;
+    background-color: transparent;
+}
+.img-container{
+    position: relative;
+    width: 50%;
+    height: auto;
+    /* background-image: url('../app/images/about-img.jpg'); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    -webkit-backdrop-filter: blur(5%);
+    backdrop-filter: blur(5%);
+}
+

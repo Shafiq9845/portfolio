@@ -60,8 +60,7 @@ const Navbar = () => {
           <li><a href="https://twitter.com/ShafiqSiddiq11" className="fa fa-twitter"></a></li>
           <li><a href="https://www.instagram.com/iem_shafiq" className="fa fa-instagram"></a></li>
           <li><a href="https://github.com/Shafiq9845" className="fa fa-github"></a></li> 
-          </div>
-          
+          </div> 
         </ul>
       </nav>
     </>

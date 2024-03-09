@@ -2,6 +2,7 @@ import Image from "next/image"
 import Img from "../images/profile.jpg"
 import "../../asset/body.css"
 import React from 'react'
+import About from '../About-us/page'
 const page = () => {
   return (
     <>
@@ -16,6 +17,7 @@ const page = () => {
         <p>𝐼 𝒜𝓂 𝒜 𝒲𝑒𝒷 𝒟𝑒𝓋𝑒𝓁𝑜𝓅𝑒𝓇.</p>            
       </div>
     </div>
+    <About/>
     
     </>
   )
