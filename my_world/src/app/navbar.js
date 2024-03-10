@@ -1,6 +1,7 @@
 import React from 'react';
 import "../asset/navbar.css";
 import Link from 'next/link';
+import About from '../app/About-me/page'
 
 const Navbar = () => {
   return (
@@ -15,9 +16,9 @@ const Navbar = () => {
         </label>
         <ul>
           <li><Link href="/">Home</Link></li>
-          <li><Link href="#About">About Me</Link></li>
-          <li><Link href="#my-work">My Work</Link></li>
-          <li><Link href="#contact-me">Contact Me</Link></li>
+          <li><Link href="#">About Me</Link></li>
+          <li><Link href="/my-work">My Work</Link></li>
+          <li><Link href="/contact-me">Contact Me</Link></li>
           <div className='right'>
           </div> 
         </ul>

@@ -3,9 +3,12 @@ import Img from "../images/IMG_20240310_082201.png"
 import "../../asset/body.css"
 import React from 'react'
 import About from '../About-me/page'
+import Navbar from "../navbar"
+import Footer from "../contact-me/page"
 const page = () => {
   return (
     <>
+    <Navbar/>
     <div className="main-container">
       <div class="typing-slider">
         <p>Hi Guys...</p>
@@ -23,8 +26,8 @@ const page = () => {
 
       </div>
     </div>
-    <About/>
-    
+    <About  className='about'/>
+    <Footer/>
     </>
   )
 }

@@ -41,20 +41,20 @@ const page = () => {
       </div>
       <div className="subsrcibe" >
       {success ? (
-          <p className="text" style={{color:'green'}}>Form submitted successfully!</p>
+          <p className="text" style={{color:'green'}}>You are subscribed buddy....</p>
         ) : (
 <>
         <h4>Subscribe :</h4>
         <input id='email' className='email' type="email" placeholder='Enter Your Email................' value={formik.values.email} onChange={formik.handleChange}/>
         <input className='btn' type="button" value="subscribe" onClick={formik.handleSubmit}/>
+                  </>
+        )}
+        </div>
         {formik.errors.email ? (
           <p className="text">
                       {formik.errors.email}
                     </p>
                   ) : null}
-                  </>
-        )}
-        </div>
     </div>
   );
 }

@@ -14,12 +14,13 @@
     left: 0;
     width: 100%;
     background-color: black;
-    height: 150px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
+    padding: 5%;
   }
   .links{
     padding-bottom: 1%;
@@ -111,7 +112,6 @@ h4{
   }
   .text{
     color: red;
-  }
-  .email.error{
-    background-color: #e94949;
+    position: relative;
+    padding: 1%;
   }
