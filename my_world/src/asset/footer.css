@@ -1,0 +1,117 @@
+@font-face {
+    font-family: DancingScript;
+    src: url(../font/DancingScript-VariableFont_wght.ttf);
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: DancingScript;
+  } 
+  .footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .links{
+    padding-bottom: 1%;
+  }
+  .subsrcibe{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+}
+h4{
+    font-size: 1.5vw;
+    color: rgba(255, 255, 255, 0);
+    position: relative;
+    background: linear-gradient( to right,rgb(255, 191, 202) 0%,pink 50%,paleturquoise 50%,paleturquoise 100% );
+    background-size: cover;
+    background-position: center;
+    -webkit-background-clip: text;
+    background-clip:text;
+    background-color: transparent;
+  }
+  .email{
+    width: 40%;
+    padding: 1%;
+    border-radius: 5px;
+    font-size: 1rem;
+    border:none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .btn{
+    position: relative;
+    width: max-content;
+    padding: 0.2%;
+    height: auto;
+    font-size: 1.5vw;
+    border-radius: 5px;
+}
+.btn:hover{
+    filter: blur(1px);
+    background: linear-gradient( to right,rgb(255, 191, 202) 0%,pink 50%,paleturquoise 50%,paleturquoise 100% );
+  }
+  .fa {
+    padding: 10px;
+    font-size: 1rem;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+.fa:hover {
+      opacity: 0.5;
+  }
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    text-decoration: none;
+    border:1px solid white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+    text-decoration: none;
+    border:1px solid white;
+  }
+  .fa-instagram {
+    background: #e94949;
+    color: white;
+    text-decoration: none;
+    border:1px solid white;
+}
+.fa-github{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border:1px solid white;
+  }
+.fa-whatsapp{
+    background-color: #00b489;
+    color: white;
+    text-decoration: none;
+    border:1px solid white;
+
+  }
+  .text{
+    color: red;
+  }
+  .email.error{
+    background-color: #e94949;
+  }

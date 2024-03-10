@@ -6,7 +6,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
 } 
 nav{
   display: flex;
@@ -68,6 +67,9 @@ input[type="checkbox"]{
   nav .menu-btn i{
     display: block;
   }
+  #click~ .menu-btn i:before{
+    content: '|||';
+  }
   #click:checked ~ .menu-btn i:before{
     content: "X";
   }
@@ -107,4 +109,10 @@ input[type="checkbox"]{
     background: none;
     color: cyan;
   }
+}
+.menu {
+  width: 3vw;
+  height: 5px;
+  background-color: rgb(252, 252, 252);
+  margin: 6px 0;
 }
