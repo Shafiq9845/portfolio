@@ -69,6 +69,6 @@ height: clamp(35px,1vw,15px);
     border-radius: 50px;
 }
 .c::-webkit-progress-value {
-    background-color: ##2196f3; 
+    background-color: #2196f3; 
     border-radius: 50px;
 }
