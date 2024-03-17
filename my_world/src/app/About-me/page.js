@@ -1,7 +1,5 @@
 import React from 'react'
 import "../../asset/about.css"
-import Img from "../images/about-img.jpg"
-import Image from 'next/image'
 const page = () => {
   return (
     <div id='about' className='about-container'>

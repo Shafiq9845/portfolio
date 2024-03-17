@@ -5,6 +5,7 @@ import React from 'react'
 import About from '../About-me/page'
 import Navbar from "../navbar"
 import Footer from "../contact-me/page"
+import Skill from "../skill/progress"
 const page = () => {
   return (
     <>
@@ -23,9 +24,9 @@ const page = () => {
       </div>
       <div className="image-container">
         <Image src={Img} alt="image" loading="lazy" className="image"></Image>
-
       </div>
     </div>
+    <Skill />
     <About  className='about'/>
     <Footer/>
     </>

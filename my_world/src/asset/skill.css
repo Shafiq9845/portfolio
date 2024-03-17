@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+}
+.skill{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    padding: 2%;
+}
+.progress{
+appearance: none;
+width: 50%;
+height: clamp(35px,1vw,15px);
+
+}
+.progress::-webkit-progress-bar {
+    background-color: #ffffff; 
+    padding: 5px;
+    /* border-radius: 50px; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.progress::-webkit-progress-value {
+    background-color: #2474d0; 
+    border-radius: 50px;
+}
+
+.progress::-moz-progress-bar {
+    background-color: #ffffff00;
+  }
+  
+.skill-logo{
+    position: relative;
+    width: 50px;
+    height: auto;
+    margin: 1%;
+    transition: ease 0.5s;
+}
+.skill-logo:hover{
+    transform: scale(1.2);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+}
+.html::-webkit-progress-value {
+    background-color: #fe4b00; 
+    border-radius: 50px;
+}
+.css::-webkit-progress-value {
+    background-color: #2196f3; 
+    border-radius: 50px;
+}
+.js::-webkit-progress-value {
+    background-color: #ffc107; 
+    border-radius: 50px;
+}
+.react::-webkit-progress-value {
+    background-color: #5adbfd; 
+    border-radius: 50px;
+}
+.python::-webkit-progress-value {
+    background: linear-gradient( to right,#3a77a6 47%,#5396b5 54%,#ddc46b 60%,#fed63f 100% );
+    border-radius: 50px;
+}
+.c::-webkit-progress-value {
+    background-color: ##2196f3; 
+    border-radius: 50px;
+}
